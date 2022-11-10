@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 이상한 생각들
+title: 이상한 생각
 email: hanbanana@hanmail.net
 author: Jung
 
@@ -154,10 +154,10 @@ lang: "ko"  # default lang is en
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+defaults:
+  home:
+    heading: "[이상한 생각]"
+    subheading: "이상한 생각들을 정리하는 블로거 by Jung"
 #     banner: "Your image url"
 
 # Banner default settings
